@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Golden Gate
+  - Bronze Gate
+  - Copper Gate
+  - Iron Gate
+  - Silver Gate
+  - Fool's Landing
+  - Garden
+  - Cave
+  - Palace
+  - Temple
+  - Pilot
+  - Engineer
+  - Explorer
+  - Diver
+  - Messenger
+  - Navigator
+  - BronzeGateCard
+  - CaveofEmbersCard
+  - CaveofShadowsCard
+  - CliffsofAbandonCard
+  - CopperGateCard
+  - CrimsonForestCard
+  - CoralPalaceCard
+  - BreakersBridgeCard
+  - DunesofDeceptionCard
+  - FoolsLandingCard
+  - GoldGateCard
+  - HowlingGardenCard
+  - IronGateCard
+  - LostLagoonCard
+  - MistyMarshCard
+  - ObservatoryCard
+  - PhantomRockCard
+  - SilverGateCard
+  - TempleoftheMoonCard
+  - TempleoftheSunCard
+  - TidalPalaceCard
+  - TwilightHollowCard
+  - WatchTowerCard
+  - Whispering GardenCard
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Board
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
