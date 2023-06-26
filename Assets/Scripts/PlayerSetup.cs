@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
@@ -18,6 +19,8 @@ public class PlayerSetup : MonoBehaviour
 
     public GameObject Player1;
     public GameObject Player2;
+
+    public TMP_Text Player1Role;
 
     public LayerMask InteractLayer;
 
@@ -38,31 +41,37 @@ public class PlayerSetup : MonoBehaviour
         {
             GetComponent<Renderer>().material = Engineer;
             EngineerAdventurer();
+            Player1Role.text = "Player 1 is an Engineer";
         }
         else if (Number == 2)
         {
             GetComponent<Renderer>().material = Pilot;
             PilotAdventurer();
+            Player1Role.text = "Player 1 is a Pilot";
         }
         else if (Number == 3)
         {
             GetComponent<Renderer>().material = Diver;
             DiverAdventurer();
+            Player1Role.text = "Player 1 is a Diver";
         }
         else if (Number == 4)
         {
             GetComponent<Renderer>().material = Explorer;
             ExplorerAdventurer();
+            Player1Role.text = "Player 1 is an Explorer";
         }
         else if (Number == 5)
         {
             GetComponent<Renderer>().material = Messenger;
             MessengerAdventurer();
+            Player1Role.text = "Player 1 is a Messenger";
         }
         else if (Number == 6)
         {
             Player1.GetComponent<Renderer>().material = Navigator;
             NavigatorAdventurer();
+            Player1Role.text = "Player 1 is a Navigator";
         }
         transform.position = Vector3.MoveTowards(transform.position, CorrectGate.position, 5f);
     }
